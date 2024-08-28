@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('fonts/Rubik/static/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('fonts/Rubik/static/Rubik-Regular.ttf');
+}
+
+* {
+    background-color: #e8eee2;
+}
+
+.negrito {
+    font-family: 'Rubik-Regular';
+    font-weight: bold; 
+}
+
+
+.meunome {
+    font-family: 'Rubik-Light';
+    font-size: xx-large;
+    padding-left: 70px; 
+    display: flex; 
+}
+
+
+.cabecalho {
+    font-family: 'Rubik-Light';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 16cm;
+    word-spacing: 1cm;
+}
+
+.contato {
+    font-family: 'Rubik-Light';
+    font-size: 20px;
+    margin-left: 16cm;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.inicio h1 {
+    font-family: 'Rubik-Regular';
+    font-size: 40px;
+    margin-left: 2cm;
+    margin-top: 3cm;
+    color: #5bb450;
+}
+
+.inicio h2 {
+    font-family: 'Rubik-Regular';
+    font-size: 40px;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    .nome{
+        color:#5bb450;
+    }
+}
