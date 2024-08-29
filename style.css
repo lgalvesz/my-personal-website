@@ -8,21 +8,28 @@
     src: url('fonts/Rubik/static/Rubik-Regular.ttf');
 }
 
+:root {
+    --bg-color: #e8e8e8;
+    --text-color: black;
+    --hover-color: #72bf6a;
+    --main-color: #5bb450;
+}
+
 * {
-    background-color: #e8eee2;
+    background-color: var(--bg-color);
 }
 
 .negrito {
     font-family: 'Rubik-Regular';
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
 .meunome {
     font-family: 'Rubik-Light';
     font-size: xx-large;
-    padding-left: 70px; 
-    display: flex; 
+    padding-left: 70px;
+    display: flex;
 }
 
 
@@ -35,29 +42,44 @@
     word-spacing: 1cm;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--hover-color)
+}
+
 .contato {
     font-family: 'Rubik-Light';
     font-size: 20px;
     margin-left: 16cm;
-    border: 2px solid;
-    border-radius: 8px;
     padding: 10px 30px;
 }
 
-.inicio h1 {
+
+
+#inicio h2 {
     font-family: 'Rubik-Regular';
     font-size: 40px;
-    margin-left: 2cm;
-    margin-top: 3cm;
-    color: #5bb450;
+    margin-right: 13cm;
+    margin-top: 2cm;
+
+    .nome {
+        color: var(--main-color);
+    }
 }
 
-.inicio h2 {
-    font-family: 'Rubik-Regular';
-    font-size: 40px;
-    margin-left: 2cm;
-    margin-top: 2cm;
-    .nome{
-        color:#5bb450;
-    }
+#inicio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.luisgustavo {
+    margin-right: 8cm;
+    margin-top: 3cm;
+    border-radius: 20px;
+    border: 7px solid var(--hover-color)
 }
