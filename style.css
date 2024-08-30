@@ -65,10 +65,10 @@ a:hover {
     font-size: 40px;
     margin-right: 13cm;
     margin-top: 2cm;
+}
 
-    .nome {
-        color: var(--main-color);
-    }
+.nome {
+    color: var(--main-color);
 }
 
 #inicio {
@@ -77,9 +77,48 @@ a:hover {
     justify-content: center;
 }
 
-.luisgustavo {
+#inicio .fullstackimg {
     margin-right: 8cm;
     margin-top: 3cm;
     border-radius: 20px;
     border: 7px solid var(--hover-color)
+}
+
+#sobre {
+}
+
+#sobre h1 {
+    font-family: 'Rubik-Regular';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+#sobre h2 {
+    font-family: 'Rubik-Regular';
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+#sobre .luisgustavo {
+    border-radius: 20px;
+    border: 7px solid var(--hover-color);
+    margin-top: 10%;
+    margin: auto;
+    display: block;
+    
+}
+
+#sobre p {
+    font-family: 'Rubik-Regular';
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 10%;   
 }
