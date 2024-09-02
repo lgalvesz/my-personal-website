@@ -24,14 +24,12 @@
     font-weight: bold;
 }
 
-
 .meunome {
     font-family: 'Rubik-Light';
     font-size: xx-large;
     padding-left: 70px;
     display: flex;
 }
-
 
 .cabecalho {
     font-family: 'Rubik-Light';
@@ -48,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: var(--hover-color)
+    color: var(--hover-color);
 }
 
 .contato {
@@ -57,8 +55,6 @@ a:hover {
     margin-left: 16cm;
     padding: 10px 30px;
 }
-
-
 
 #inicio h2 {
     font-family: 'Rubik-Regular';
@@ -81,7 +77,7 @@ a:hover {
     margin-right: 8cm;
     margin-top: 3cm;
     border-radius: 20px;
-    border: 7px solid var(--hover-color)
+    border: 7px solid var(--hover-color);
 }
 
 #sobre {
@@ -104,6 +100,8 @@ a:hover {
 .container {
     display: flex;
     align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Adiciona espaço ao redor do container */
 }
 
 #sobre .luisgustavo {
@@ -112,13 +110,59 @@ a:hover {
     margin-top: 10%;
     margin: auto;
     display: block;
-    
 }
 
 #sobre p {
     font-family: 'Rubik-Regular';
-    text-align: center;
     font-size: 20px;
     text-align: left;
-    margin-right: 10%;   
+    margin-right: 10%;
+}
+
+#falecomigo h1 {
+    font-family: 'Rubik-Regular';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.row{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Rubik-Regular';
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font-family: 'Rubik-Regular';
+    font: 1em;
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.botao-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: #5bb450;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
